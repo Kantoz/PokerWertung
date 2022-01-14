@@ -2,14 +2,7 @@
 {
     public static class Enums
     {
-        public enum Farben
-        {
-            Herz,
-            Kreuz,
-            Pik,
-            Diamond
-        }
-
+        
         public enum Kartenwert
         {
             Zwei,
@@ -26,6 +19,8 @@
             König,
             Ass
         }
+
+        
 
         public enum Handwertung
         {

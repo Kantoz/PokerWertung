@@ -8,7 +8,7 @@ namespace PokerKata
         public static Spieler ErmittleGewinner(IEnumerable<Spieler> spieler)
         {
             var spielers = spieler.ToList();    
-            spielers.Sort(new SpielerComparer());
+            spielers.Sort(new Spieler.SpielerComparer());
             return spielers.Last();
         }
         
